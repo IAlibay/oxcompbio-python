@@ -38,7 +38,7 @@ jobs:
           use-mamba: True
           python-version: ${{ matrix.python-version }}
           miniforge-variant: Mambaforge
-          environment-file: environment.yml
+          environment-file: tests/environment.yml
           activate-environment: OxPython
  
       - name: "environment information"
@@ -47,4 +47,4 @@ jobs:
           mamba list
       - name: "run notebooks tests"
         run: |
-          pytest -v --nbval-lax tutorial/
+          pytest -v --nbval-lax
