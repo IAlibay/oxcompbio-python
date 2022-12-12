@@ -38,7 +38,7 @@ jobs:
           use-mamba: True
           python-version: ${{ matrix.python-version }}
           miniforge-variant: Mambaforge
-          environment-file: environment.yaml
+          environment-file: environment.yml
           activate-environment: OxPython
  
       - name: "environment information"
