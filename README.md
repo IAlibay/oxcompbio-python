@@ -11,7 +11,7 @@ In order to participate in this workshop you can either [setup a local Python en
 ## The Python workshop
 
 
-Click here to launch the workshop via binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IAlibay/oxcompbio-python/main)
+Click here to launch the workshop via binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IAlibay/oxcompbio-python/main?urlpath=/tree/)
 
 This consists of a set of jupyter notebooks which aim to teach the basics of python programming assuming no prior knowledge.
 First introducing core concepts such as variables, loops, conditionals and lists, we eventually demonstrate how molecular structures can be analysed using python libraries such as [MDAnalysis](https://www.mdanalysis.org/) and [NGLView](http://nglviewer.org/nglview/latest/).
