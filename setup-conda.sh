@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create conda environment
-conda env create -f environment.yaml
+conda env create -f environment.yml
 source activate OxPython
 
 jupyter-nbextension enable nglview --py --sys-prefix
